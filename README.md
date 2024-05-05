@@ -72,7 +72,7 @@ This is the official Github repository for the NCT Enterprises E-commerce Platfo
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Apache License Version 2.0. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -89,3 +89,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+
