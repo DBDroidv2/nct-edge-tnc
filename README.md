@@ -1,21 +1,6 @@
-<div class="hero">
-  <img src="./nct-repo-logo.png" alt="NCT Enterprises Logo" class="hero-logo" loading="lazy" />
+<div class="hero" style="display: flex; justify-content: center; align-items: center; height: 150px;">
+  <img src="./nct-repo-logo.png" alt="NCT Enterprises Logo" class="hero-logo" loading="lazy" style="height: 100%; width: auto; max-width: 100%;" />
 </div>
-
-<style>
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-}
-
-.hero-logo {
-  height: 100%;
-  width: auto;
-  max-width: 100%;
-}
-</style>
 
 <h1 align="center">NCT Enterprises E-commerce Platform</h1>
 
