@@ -3,47 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Help Center - NCT Enterprises</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .card-box{
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .card-title{
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .icon-box{
+            background-color: #f1f1f1;
+            color: #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+        .icon-box i{
+            font-size: 20px;
+        }
+        .btn-rounded{
+            border-radius: 50px;
+            padding: 10px 25px;
+            background-color: #343a40;
+            color: #fff;
+        }
+        .btn-rounded:hover{
+            background-color: #23282d;
+        }
+        @media (max-width: 768px) {
+            .card-box{
+                margin-bottom: 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">(TEST)NCT Enterprises</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="help-center-page.html">Help Center</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <ul class="list-group">
-                    <li class="list-group-item active">General</li>
-                    <li class="list-group-item"><a href="#">How to order on NCT Enterprises?</a></li>
-                    <li class="list-group-item"><a href="#">How to track my order?</a></li>
-                    <li class="list-group-item"><a href="#">How to cancel my order?</a></li>
-                    <li class="list-group-item"><a href="#">Return and Refunds</a></li>
-                    <li class="list-group-item"><a href="#">How to contact NCT Enterprises?</a></li>
-                </ul>
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="card-box">
+                    <h3 class="card-title">How to order on NCT Enterprises?</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="icon-box"><i class="fas fa-shopping-cart"></i></div>
+                            <p>Browse our wide variety of products and find the one that suits your needs.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="icon-box"><i class="fas fa-lock"></i></div>
+                            <p>Sign in to your account or create a new one if you don't have one.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="icon-box"><i class="fas fa-shopping-bag"></i></div>
+                            <p>Add products to your shopping cart.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="icon-box"><i class="fas fa-credit-card"></i></div>
+                            <p>Proceed to checkout and enter your payment details.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="icon-box"><i class="fas fa-check-circle"></i></div>
+                            <p>Complete your order and enjoy the convenience of online shopping.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-rounded mt-3"><span class="text-white">Get started now</span></a>
+                </div>
             </div>
-            <div class="col-md-9">
-                <h2>How to order on NCT Enterprises?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quam doloremque. Dolores ratione magni explicabo soluta fugiat velit, maxime, nostrum, vel, quam, cupiditate repudiandae doloremque impedit iusto excepturi aspernatur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quam doloremque. Dolores ratione magni explicabo soluta fugiat velit, maxime, nostrum, vel, quam, cupiditate repudiandae doloremque impedit iusto excepturi aspernatur.</p>
+            <div class="col-lg-5 mt-4">
+                 <div class="card-box">
+                    <h3 class="card-title">Still Need help?</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                            <p>Contact our customer support team at <a href="mailto:customercare@nctenterprises.in">customercare@nctenterprises.in</a>. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
 </html>
-

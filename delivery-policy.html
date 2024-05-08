@@ -1,97 +1,91 @@
 <style>
     body {
-        background-color: #f5deb3;
+        background-color: #f5f5f5;
     }
     .container {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 20px;
-    }
-    h1 {
-        font-size: 36px;
-        color: #333;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    p {
-        font-size: 18px;
-        line-height: 1.6;
-        color: #333;
-        margin-bottom: 20px;
+        padding: 40px;
     }
     .highlight-banner {
-        background-color: #e51937;
+        background-color: #302bd5;
         color: #fff;
-        padding: 16px;
+        padding: 40px;
         text-align: center;
+    }
+    .highlight-banner h2 {
+        font-size: 36px;
+        font-weight: 600;
         margin-bottom: 20px;
+    }
+    .highlight-banner p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    .highlight-banner a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        border-bottom: 1px solid #fff;
     }
     .widget {
         background-color: #fff;
-        border: 1px solid #e51937;
+        border: 1px solid #ddd;
+        border-radius: 10px;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-        padding: 20px;
-        margin-bottom: 20px;
+        padding: 40px;
+        margin-bottom: 40px;
     }
     .widget-title {
         font-size: 24px;
-        line-height: 32px;
-        margin-bottom: 16px;
+        font-weight: 600;
         color: #333;
+        margin-bottom: 20px;
     }
     .widget-list {
-        list-style: upper-alpha;
-        margin: 1;
-        padding: 1;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
     .widget-list li {
         margin-bottom: 16px;
     }
     .widget-list li:before {
-        content: "\2022";
-        color: #937a7d;
-        display: inline-block;
-        font-weight: bold;
-        margin-right: 8px;
-        position: absolute;
-    }
-    .widget-list li:not(:last-child) {
-        margin-bottom: 24px;
+        content: '\f058';
+        font-family: "Font Awesome 5 Free";
+        margin-right: 10px;
+        color: #337ab7;
     }
     .contact-info {
         margin-bottom: 20px;
     }
     .contact-info h2 {
         font-size: 24px;
-        line-height: 32px;
+        font-weight: 600;
         color: #333;
         margin-bottom: 16px;
     }
     .contact-info p {
         font-size: 18px;
+        font-weight: 400;
         line-height: 1.6;
-        color: #333;
         margin-bottom: 20px;
     }
     .contact-info a {
-        color: #333;
+        color: #337ab7;
         text-decoration: none;
     }
-    .fa-icon {
-        color: #e51937;
-        font-size: 32px;
-        margin-right: 16px;
-    }
-    .fa-phone {
-        color: #333;
-    }
-    .fa-map-marker-alt {
-        color: #333;
+    .center-align {
+        text-align: center;
     }
 </style>
 
 <div class="highlight-banner">
-    <h2>NCT E-commerce Platform providing fast delivery up to 2 days</h2>
+    <h2>NCT E-commerce Platform providing fast delivery up to 2 days in Collalaboration with ShipRocket</h2>
+    <p>We understand that timing is important. That is why we strive to deliver orders in a timely manner. We usually ship within 2-6 days depending on the location of your delivery address. We also offer Fast Delivery in select areas. We are partnering with ShipRocket to provide fast delivery in select areas.</p>
+    <a href="https://nctenterprises.in/shop">SHOP NOW</a>
 </div>
 
 <div class="container">
@@ -99,41 +93,37 @@
     <div class="row">
         <div class="col s12 m4">
             <div class="widget">
-                <i class="fa fa-truck fa-icon"></i>
                 <h2 class="widget-title">Fast and Reliable Delivery</h2>
-                <p>We understand that timing is important. That is why we strive to deliver orders in a timely manner. We usually ship within 2-6 days depending on the location of your delivery address. We also offer Same Day Delivery in select areas. We are partnering with ShipRocket to provide same day delivery in select areas.</p>
+                <p>We are here to deliver your orders in a timely manner. We usually ship within 2-6 days depending on the location of your delivery address. We also offer fast Delivery in select areas. We are partnering with ShipRocket to provide fast delivery in select areas.</p>
             </div>
         </div>
         <div class="col s12 m4">
             <div class="widget">
-                <i class="fa fa-phone fa-icon"></i>
                 <h2 class="widget-title">24/7 Customer Support</h2>
-                <p>We are here to help. If you have any issues related to your delivery, please don’t hesitate to contact our customer support team. We are available 24/7 to assist you.</p>
-                <p class="contact-info"><a href="tel:+919820202020"><i class="fa fa-phone"></i> +91 9820202020</a></p>
-                <p class="contact-info"><a href="mailto:support@nct.com"><i class="fa fa-envelope"></i> support@nct.com</a></p>
+                <p>We are here to help. If you have any issues related to your delivery, please don't hesitate to contact our customer support team. We are available 24/7 to assist you.</p>
+                <ul class="contact-info widget-list">
+                    <li><a href="mailto:customercare@nctenterprises.in">customercare@nctenterprises.in</a></li>
+                </ul>
             </div>
         </div>
         <div class="col s12 m4">
             <div class="widget">
-                <i class="fa fa-shopping-bag fa-icon"></i>
                 <h2 class="widget-title">Secure Checkout</h2>
-                <p>We take the security of your personal information very seriously. That is why we use SSL encryption for all transactions. This ensures that all of your personal information is secure and protected.</p>
+                <p>We take the security of your personal information very seriously. That is why we use SSL encryption for all transactions. This ensures that all of your personal information is secure and protected.We use Razorpay for payment processing. </p>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col s12">
             <div class="widget">
-                <i class="fa fa-info-circle fa-icon"></i>
                 <h2 class="widget-title">Delivery Policy Details</h2>
                 <ul class="widget-list">
-                    <li> We use a network of reliable courier partners to deliver your orders. We are partnering with ShipRocket to provide same day delivery in select areas.</li>
-                    <li> The return window for products listed on NCT Enterprises is typically 30 days from the dispatch date.</li>
-                    <li> To ensure that your order is delivered to you, please make sure to provide us with the correct contact details, including your name and phone number.</li>
-                    <li> If for any reason, you don’t receive your order within 2-6 days, please do not hesitate to contact our customer support team. We are here to help and will do our best to resolve the issue for you.</li>
+                    <li>We use a network of reliable courier partners to deliver your orders.</li>
+                    <li>The return window for products listed on NCT Enterprises is typically 7 days from the dispatch date.</li>
+                    <li>To ensure that your order is delivered to you, please make sure to provide us with the correct contact details, including your name and phone number.</li>
+                    <li>If for any reason, you dont receive your order within 2-6 days, please do not hesitate to contact our customer support team. We are here to help and will do our best to resolve the issue for you.</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-
