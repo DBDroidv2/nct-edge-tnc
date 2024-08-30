@@ -7,7 +7,7 @@
 <div align="center">
   
   [![Website Status](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fnctenterprises.in&style=for-the-badge)](https://nctenterprises.in)
-  [![GitHub license](https://img.shields.io/github/license/nctenterprises/ecommerce-platform?style=for-the-badge)](https://github.com/DBDroidv2/nct-edge-tnc/blob/main/LICENSE)
+
   
 </div>
 
